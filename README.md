@@ -1,15 +1,24 @@
 # 🎮 SingularityReborn
 
+> ⚠️ **ATTENTION - PROJET EXPÉRIMENTAL NON TESTÉ** ⚠️
+> 
+> **Ce projet n'a PAS été testé et ne doit PAS être utilisé en l'état.**
+> 
+> Ce dépôt est en phase de développement actif. Les exploits, payloads et optimisations décrits dans cette documentation n'ont pas été validés sur des appareils réels. L'utilisation de ce code peut causer des dommages irréversibles à votre appareil, incluant mais ne se limitant pas à : brick permanent, perte de données, void de garantie, ou instabilités système.
+> 
+> **N'INSTALLEZ PAS CET APK SUR VOTRE APPAREIL.** Ce projet est destiné à des fins de recherche et de documentation uniquement.
+
 <div align="center">
 
-**Outil de root et d'optimisation pour Meta Quest 3**
+**Outil de root et d'optimisation pour Meta Quest 3 (EXPÉRIMENTAL)**
 
-[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/Y4n1ss3/OpenSingularity/releases)
+[![Status](https://img.shields.io/badge/status-UNTESTED-red.svg)]()
+[![Version](https://img.shields.io/badge/version-1.1.0--alpha-orange.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Meta%20Quest%203-orange.svg)](https://www.meta.com/quest/)
 [![Android](https://img.shields.io/badge/Android-10+-brightgreen.svg)](https://www.android.com/)
 
-[Installation](#installation) • [Utilisation](#utilisation) • [Features](#features) • [Documentation](#documentation)
+[⚠️ Avertissement](#-avertissement-important) • [À propos](#-à-propos) • [Documentation technique](#-documentation-technique)
 
 </div>
 
@@ -17,17 +26,53 @@
 
 ## 📖 À propos
 
-**SingularityReborn** est un outil Android avancé conçu pour le Meta Quest 3 qui permet :
-- 🔓 **Obtention du root** via exploits kernel (Cheese & Fugu)
-- ⚡ **Optimisations de performance** majeures (cache, batch operations)
-- 🎯 **Payloads système** pour personnaliser votre expérience VR
-- 🌐 **Features avancées** : clavier AZERTY, cast HD, Chromecast, etc.
+> ⚠️ **Rappel : Ce projet n'est PAS fonctionnel et n'a PAS été testé.**
 
-Développé pour la communauté VR francophone, SingularityReborn repousse les limites de votre Quest 3.
+**SingularityReborn** est un projet de recherche conçu pour le Meta Quest 3 qui vise à explorer :
+- 🔓 **L'obtention du root** via exploits kernel (Cheese & Fugu)
+- ⚡ **Des optimisations de performance** (cache, batch operations)
+- 🎯 **Des payloads système** pour personnaliser l'expérience VR
+- 🌐 **Des features avancées** : clavier AZERTY, cast HD, Chromecast, etc.
+
+**Ce projet est en phase de documentation et d'analyse de code reverse-engineered. Aucun composant n'a été validé sur appareil réel.**
 
 ---
 
-## ✨ Features
+## ⚠️ Avertissement Important
+
+### 🚨 STATUT DU PROJET
+
+**Ce projet est STRICTEMENT EXPÉRIMENTAL et n'a JAMAIS été testé sur un appareil réel.**
+
+- ❌ Les exploits kernel n'ont pas été validés
+- ❌ Les payloads n'ont pas été exécutés
+- ❌ Les optimisations n'ont pas été mesurées
+- ❌ Le build n'a pas été vérifié
+- ❌ Aucune garantie de fonctionnement
+
+### 🔴 RISQUES POTENTIELS
+
+Si vous décidez quand même d'utiliser ce code (ce que nous déconseillons fortement) :
+
+- **Brick permanent** de votre appareil
+- **Perte totale de données**
+- **Void irréversible** de votre garantie
+- **Instabilités système** critiques
+- **Exposition de sécurité** (root non testé = failles potentielles)
+- **Violations des conditions d'utilisation** Meta
+
+### 📋 Ce que vous DEVEZ savoir
+
+1. **Ce code est basé sur du reverse engineering** - Il peut contenir des erreurs d'interprétation
+2. **Les firmwares cibles évoluent** - Les exploits peuvent être patchés
+3. **L'environnement de test manque** - Aucune validation empirique n'a été faite
+4. **La documentation précède l'implémentation** - Ce qui est décrit peut ne pas fonctionner
+
+---
+
+## ✨ Features (NON TESTÉES)
+
+> ⚠️ Les features décrites ci-dessous sont basées sur l'analyse du code source et n'ont pas été validées.
 
 ### 🔐 Root & Exploits
 - **Exploit Cheese** - Root rapide via dirtyfrag (kernel vulnerability)
@@ -73,11 +118,15 @@ Développé pour la communauté VR francophone, SingularityReborn repousse les l
 
 ## 📦 Installation
 
+> ⚠️ **NE PAS INSTALLER** - Ce projet n'est pas fonctionnel. Cette section est conservée à titre de documentation uniquement.
+
 ### Prérequis
 - Meta Quest 3 (firmware v62+ recommandé)
 - PC Windows/Mac/Linux avec ADB installé
 - Câble USB-C
 - Développeur mode activé sur le Quest
+
+> **RAPPEL** : Même si vous remplissez tous les prérequis, **ce projet n'a pas été testé** et son utilisation peut endommager votre appareil de manière irréversible.
 
 ### Étapes d'installation
 
@@ -256,21 +305,33 @@ Pour une documentation détaillée des modifications et optimisations, consultez
 
 ## ⚠️ Avertissements
 
+### 🚨 STATUT : PROJET NON TESTÉ
+
+**Ce projet n'a JAMAIS été testé sur un appareil réel. Son utilisation est fortement déconseillée.**
+
 ### Risques
+
 - **Root** : L'obtention du root peut void votre garantie
 - **Exploits** : Les exploits kernel peuvent causer des instabilités
 - **Payloads** : Certains payloads modifient le système de manière permanente
+- **BRICK** : Risque de brick permanent de l'appareil (NON TESTÉ)
+- **DONNÉES** : Risque de perte totale de données (NON TESTÉ)
 
 ### Bonnes pratiques
-- ✅ Faites une sauvegarde avant d'utiliser l'outil
+
+- ✅ **NE PAS UTILISER** ce projet en l'état
+- ✅ Faites une sauvegarde avant d'utiliser l'outil (si vous décidez quand même de l'utiliser)
 - ✅ Lisez la documentation de chaque payload
 - ✅ Testez dans un environnement contrôlé
 - ❌ N'utilisez pas sur un casque de production critique
 - ❌ Ne blamez pas l'auteur si quelque chose se passe mal
 
-### Support firmware
-- **Cheese** : v62 - v68
-- **Fugu** : v62 - v70+ (selon les targets disponibles)
+### Support firmware (NON VALIDÉ)
+
+> ⚠️ Les plages de firmware indiquées ci-dessous sont basées sur l'analyse du code et n'ont pas été testées.
+
+- **Cheese** : v62 - v68 (théorique)
+- **Fugu** : v62 - v70+ (selon les targets disponibles, théorique)
 
 ---
 
