@@ -1,0 +1,56 @@
+package androidx.compose.material.icons.sharp;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import defpackage.af0;
+import defpackage.bv;
+import defpackage.fc;
+import defpackage.gy;
+import defpackage.j50;
+import defpackage.k4;
+import defpackage.r6;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class _4kPlusKt {
+    private static ImageVector __4kPlus;
+
+    public static final ImageVector get_4kPlus(Icons.Sharp sharp) {
+        ImageVector imageVector = __4kPlus;
+        if (imageVector != null) {
+            imageVector.getClass();
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("Sharp._4kPlus", Dp.m7611constructorimpl(24.0f), Dp.m7611constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        SolidColor solidColor = new SolidColor(Color.Companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw = StrokeCap.Companion.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk8 = StrokeJoin.Companion.m5145getBevelLxFBmk8();
+        PathBuilder i = r6.i(21.0f, 3.0f, 3.0f, 18.0f, 18.0f);
+        k4.D(i, 3.0f, 11.0f, 13.5f, -1.0f);
+        bv.A(i, 15.0f, 8.5f, -1.5f, -3.0f);
+        bv.A(i, 9.0f, 7.0f, 3.0f, 1.5f);
+        bv.A(i, 9.0f, 10.0f, 3.0f, 1.0f);
+        bv.t(i, 13.5f, 14.75f, 15.0f);
+        fc.t(i, 13.0f, 12.75f, 15.0f, -1.5f);
+        r6.v(i, 9.0f, 13.0f, 2.25f);
+        i.lineTo(14.75f, 9.0f);
+        i.horizontalLineToRelative(1.75f);
+        i.lineToRelative(-2.25f, 3.0f);
+        gy.w(i, 2.25f, 3.0f, 14.75f);
+        j50.y(i, 19.0f, 12.5f, -1.5f, 14.0f);
+        af0.z(i, -1.0f, -1.5f, 15.0f, -1.0f);
+        af0.q(i, 1.5f, 10.0f, 1.0f, 1.5f);
+        ImageVector build = ImageVector.Builder.m5492addPathoIyEayM$default(builder, k4.o(i, 19.0f, 12.5f), defaultFillType, "", solidColor, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw, m5145getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        __4kPlus = build;
+        build.getClass();
+        return build;
+    }
+}

@@ -1,0 +1,30 @@
+package androidx.compose.foundation.gestures.snapping;
+
+import defpackage.bq;
+import defpackage.hm;
+import defpackage.im;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+@bq(c = "androidx.compose.foundation.gestures.snapping.SnapFlingBehavior", f = "SnapFlingBehavior.kt", l = {114}, m = "fling", v = 1)
+/* loaded from: classes.dex */
+public final class SnapFlingBehavior$fling$1 extends im {
+    Object L$0;
+    int label;
+    /* synthetic */ Object result;
+    final /* synthetic */ SnapFlingBehavior this$0;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public SnapFlingBehavior$fling$1(SnapFlingBehavior snapFlingBehavior, hm hmVar) {
+        super(hmVar);
+        this.this$0 = snapFlingBehavior;
+    }
+
+    @Override // defpackage.mc
+    public final Object invokeSuspend(Object obj) {
+        Object fling;
+        this.result = obj;
+        this.label |= Integer.MIN_VALUE;
+        fling = this.this$0.fling(null, 0.0f, null, this);
+        return fling;
+    }
+}

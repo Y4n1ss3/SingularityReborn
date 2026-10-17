@@ -1,0 +1,55 @@
+package androidx.compose.material.icons.rounded;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import defpackage.fc;
+import defpackage.r6;
+import defpackage.uo;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class DoDisturbOffKt {
+    private static ImageVector _doDisturbOff;
+
+    public static final ImageVector getDoDisturbOff(Icons.Rounded rounded) {
+        ImageVector imageVector = _doDisturbOff;
+        if (imageVector != null) {
+            imageVector.getClass();
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("Rounded.DoDisturbOff", Dp.m7611constructorimpl(24.0f), Dp.m7611constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        SolidColor solidColor = new SolidColor(Color.Companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw = StrokeCap.Companion.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk8 = StrokeJoin.Companion.m5145getBevelLxFBmk8();
+        PathBuilder m = fc.m(17.0f, 11.0f, 2.0f, -0.88f);
+        m.lineToRelative(4.33f, 4.33f);
+        m.curveTo(21.43f, 15.79f, 22.0f, 13.96f, 22.0f, 12.0f);
+        m.curveToRelative(0.0f, -5.52f, -4.48f, -10.0f, -10.0f, -10.0f);
+        m.curveToRelative(-1.96f, 0.0f, -3.79f, 0.57f, -5.33f, 1.55f);
+        r6.C(m, 14.12f, 11.0f, 17.0f, 11.0f);
+        m.moveTo(21.17f, 20.88f);
+        m.lineTo(3.12f, 2.83f);
+        m.curveToRelative(-0.39f, -0.39f, -1.02f, -0.39f, -1.41f, 0.0f);
+        m.curveToRelative(-0.39f, 0.39f, -0.39f, 1.02f, 0.0f, 1.41f);
+        m.lineToRelative(2.07f, 2.07f);
+        m.curveTo(2.66f, 7.93f, 2.0f, 9.89f, 2.0f, 12.0f);
+        m.curveToRelative(0.0f, 5.52f, 4.48f, 10.0f, 10.0f, 10.0f);
+        m.curveToRelative(2.11f, 0.0f, 4.07f, -0.66f, 5.68f, -1.78f);
+        m.lineToRelative(2.07f, 2.07f);
+        m.curveToRelative(0.39f, 0.39f, 1.02f, 0.39f, 1.41f, 0.0f);
+        m.curveToRelative(0.4f, -0.39f, 0.4f, -1.02f, 0.01f, -1.41f);
+        uo.C(m, 7.0f, 13.0f, -2.0f, 1.46f);
+        ImageVector build = ImageVector.Builder.m5492addPathoIyEayM$default(builder, r6.k(m, 2.0f, 2.0f, 7.0f, 13.0f), defaultFillType, "", solidColor, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw, m5145getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        _doDisturbOff = build;
+        build.getClass();
+        return build;
+    }
+}

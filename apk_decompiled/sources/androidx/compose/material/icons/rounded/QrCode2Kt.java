@@ -1,0 +1,97 @@
+package androidx.compose.material.icons.rounded;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import defpackage.bv;
+import defpackage.fc;
+import defpackage.j50;
+import defpackage.k4;
+import defpackage.kf0;
+import defpackage.kp0;
+import defpackage.r6;
+import defpackage.uo;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class QrCode2Kt {
+    private static ImageVector _qrCode2;
+
+    public static final ImageVector getQrCode2(Icons.Rounded rounded) {
+        ImageVector imageVector = _qrCode2;
+        if (imageVector != null) {
+            imageVector.getClass();
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("Rounded.QrCode2", Dp.m7611constructorimpl(24.0f), Dp.m7611constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        SolidColor solidColor = new SolidColor(Color.Companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw = StrokeCap.Companion.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk8 = StrokeJoin.Companion.m5145getBevelLxFBmk8();
+        PathBuilder n = k4.n(15.0f, 21.0f, -2.0f, -2.0f, 2.0f);
+        k4.D(n, 21.0f, 13.0f, 14.0f, -2.0f);
+        k4.p(n, 5.0f, 2.0f, 14.0f);
+        k4.C(n, 21.0f, 12.0f, -2.0f, 4.0f);
+        uo.r(n, 2.0f, 12.0f, 19.0f, 10.0f);
+        bv.l(n, -2.0f, 2.0f, 2.0f, 10.0f);
+        k4.A(n, 7.0f, 12.0f, 5.0f, 2.0f);
+        uo.r(n, 2.0f, 12.0f, 5.0f, 10.0f);
+        bv.h(n, 3.0f, 2.0f, 2.0f, 10.0f);
+        j50.y(n, 12.0f, 5.0f, 2.0f, 3.0f);
+        uo.r(n, -2.0f, 5.0f, 4.5f, 4.5f);
+        fc.y(n, 3.0f, 3.0f, -3.0f, 4.5f);
+        n.moveTo(8.0f, 9.0f);
+        n.horizontalLineTo(4.0f);
+        n.curveTo(3.45f, 9.0f, 3.0f, 8.55f, 3.0f, 8.0f);
+        n.verticalLineTo(4.0f);
+        n.curveToRelative(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        n.horizontalLineToRelative(4.0f);
+        n.curveToRelative(0.55f, 0.0f, 1.0f, 0.45f, 1.0f, 1.0f);
+        n.verticalLineToRelative(4.0f);
+        n.curveTo(9.0f, 8.55f, 8.55f, 9.0f, 8.0f, 9.0f);
+        uo.C(n, 4.5f, 16.5f, 3.0f, 3.0f);
+        kf0.n(n, -3.0f, 4.5f, 8.0f, 21.0f);
+        n.horizontalLineTo(4.0f);
+        n.curveToRelative(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        n.verticalLineToRelative(-4.0f);
+        n.curveToRelative(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        n.horizontalLineToRelative(4.0f);
+        n.curveToRelative(0.55f, 0.0f, 1.0f, 0.45f, 1.0f, 1.0f);
+        n.verticalLineToRelative(4.0f);
+        n.curveTo(9.0f, 20.55f, 8.55f, 21.0f, 8.0f, 21.0f);
+        uo.C(n, 16.5f, 4.5f, 3.0f, 3.0f);
+        kf0.n(n, -3.0f, 16.5f, 20.0f, 9.0f);
+        n.horizontalLineToRelative(-4.0f);
+        n.curveToRelative(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        n.verticalLineTo(4.0f);
+        n.curveToRelative(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        n.horizontalLineToRelative(4.0f);
+        n.curveToRelative(0.55f, 0.0f, 1.0f, 0.45f, 1.0f, 1.0f);
+        n.verticalLineToRelative(4.0f);
+        n.curveTo(21.0f, 8.55f, 20.55f, 9.0f, 20.0f, 9.0f);
+        bv.v(n, 19.0f, 19.0f, -3.0f);
+        r6.A(n, -4.0f, 0.0f, 2.0f, 2.0f);
+        fc.y(n, 3.0f, 4.0f, -2.0f, 19.0f);
+        n.moveTo(17.0f, 12.0f);
+        r6.A(n, -4.0f, 0.0f, 2.0f, 4.0f);
+        k4.B(n, 12.0f, 13.0f, 10.0f, 7.0f);
+        r6.D(n, 2.0f, 2.0f, 2.0f, 2.0f);
+        k4.p(n, -2.0f, 2.0f, 10.0f);
+        kp0.t(n, 14.0f, 9.0f, 7.0f, -2.0f);
+        kf0.r(n, 5.0f, -2.0f, 4.0f);
+        uo.l(n, 14.0f, 9.0f, 6.75f, 5.25f);
+        bv.l(n, -1.5f, 1.5f, 1.5f, 5.25f);
+        k4.C(n, 6.75f, 17.25f, -1.5f, 1.5f);
+        uo.r(n, 1.5f, 17.25f, 18.75f, 5.25f);
+        ImageVector build = ImageVector.Builder.m5492addPathoIyEayM$default(builder, j50.m(n, -1.5f, 1.5f, 1.5f, 5.25f), defaultFillType, "", solidColor, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw, m5145getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        _qrCode2 = build;
+        build.getClass();
+        return build;
+    }
+}

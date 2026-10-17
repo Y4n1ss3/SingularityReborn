@@ -1,0 +1,51 @@
+package androidx.compose.material.icons.outlined;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import defpackage.af0;
+import defpackage.bv;
+import defpackage.k4;
+import defpackage.r6;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class AccountBalanceKt {
+    private static ImageVector _accountBalance;
+
+    public static final ImageVector getAccountBalance(Icons.Outlined outlined) {
+        ImageVector imageVector = _accountBalance;
+        if (imageVector != null) {
+            imageVector.getClass();
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("Outlined.AccountBalance", Dp.m7611constructorimpl(24.0f), Dp.m7611constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        SolidColor solidColor = new SolidColor(Color.Companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw = StrokeCap.Companion.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk8 = StrokeJoin.Companion.m5145getBevelLxFBmk8();
+        PathBuilder n = k4.n(6.5f, 10.0f, -2.0f, 7.0f, 2.0f);
+        bv.m(n, -7.0f, 12.5f, 10.0f, -2.0f);
+        r6.p(n, 7.0f, 2.0f, -7.0f);
+        n.moveTo(21.0f, 19.0f);
+        af0.m(n, 2.0f, 19.0f, 2.0f, 19.0f);
+        bv.m(n, -2.0f, 18.5f, 10.0f, -2.0f);
+        r6.p(n, 7.0f, 2.0f, -7.0f);
+        n.moveTo(11.5f, 3.26f);
+        n.lineTo(16.71f, 6.0f);
+        n.lineTo(6.29f, 6.0f);
+        n.lineToRelative(5.21f, -2.74f);
+        n.moveToRelative(0.0f, -2.26f);
+        af0.m(n, 2.0f, 6.0f, 2.0f, 19.0f);
+        ImageVector build = ImageVector.Builder.m5492addPathoIyEayM$default(builder, r6.u(n, 21.0f, 6.0f, -9.5f, -5.0f), defaultFillType, "", solidColor, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw, m5145getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        _accountBalance = build;
+        build.getClass();
+        return build;
+    }
+}

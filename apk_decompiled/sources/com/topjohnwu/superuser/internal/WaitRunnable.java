@@ -1,0 +1,27 @@
+package com.topjohnwu.superuser.internal;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes2.dex */
+public final class WaitRunnable implements Runnable {
+    private Runnable r;
+
+    public WaitRunnable(Runnable runnable) {
+        this.r = runnable;
+    }
+
+    @Override // java.lang.Runnable
+    public synchronized void run() {
+        this.r.run();
+        this.r = null;
+        notifyAll();
+    }
+
+    public synchronized void waitUntilDone() {
+        while (this.r != null) {
+            try {
+                wait();
+            } catch (InterruptedException unused) {
+            }
+        }
+    }
+}

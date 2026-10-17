@@ -1,0 +1,66 @@
+package androidx.compose.material3;
+
+import androidx.compose.foundation.lazy.LazyListState;
+import androidx.compose.material3.internal.CalendarMonth;
+import defpackage.bq;
+import defpackage.hm;
+import defpackage.k10;
+import defpackage.my;
+import defpackage.p10;
+import defpackage.un;
+import defpackage.us0;
+import defpackage.vn;
+import defpackage.w01;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+@bq(c = "androidx.compose.material3.DatePickerKt$DatePickerContent$2$4$2$2$1$1$1", f = "DatePicker.kt", l = {1653}, m = "invokeSuspend")
+/* loaded from: classes.dex */
+public final class DatePickerKt$DatePickerContent$2$4$2$2$1$1$1 extends us0 implements my {
+    final /* synthetic */ CalendarMonth $displayedMonth;
+    final /* synthetic */ LazyListState $monthsListState;
+    final /* synthetic */ int $year;
+    final /* synthetic */ k10 $yearRange;
+    int label;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public DatePickerKt$DatePickerContent$2$4$2$2$1$1$1(LazyListState lazyListState, int i, k10 k10Var, CalendarMonth calendarMonth, hm hmVar) {
+        super(2, hmVar);
+        this.$monthsListState = lazyListState;
+        this.$year = i;
+        this.$yearRange = k10Var;
+        this.$displayedMonth = calendarMonth;
+    }
+
+    @Override // defpackage.mc
+    public final hm create(Object obj, hm hmVar) {
+        return new DatePickerKt$DatePickerContent$2$4$2$2$1$1$1(this.$monthsListState, this.$year, this.$yearRange, this.$displayedMonth, hmVar);
+    }
+
+    @Override // defpackage.my
+    public final Object invoke(un unVar, hm hmVar) {
+        return ((DatePickerKt$DatePickerContent$2$4$2$2$1$1$1) create(unVar, hmVar)).invokeSuspend(w01.a);
+    }
+
+    @Override // defpackage.mc
+    public final Object invokeSuspend(Object obj) {
+        int i = this.label;
+        if (i == 0) {
+            p10.Q(obj);
+            LazyListState lazyListState = this.$monthsListState;
+            int month = (this.$displayedMonth.getMonth() + ((this.$year - this.$yearRange.d) * 12)) - 1;
+            this.label = 1;
+            Object scrollToItem$default = LazyListState.scrollToItem$default(lazyListState, month, 0, this, 2, null);
+            vn vnVar = vn.d;
+            if (scrollToItem$default == vnVar) {
+                return vnVar;
+            }
+        } else {
+            if (i != 1) {
+                defpackage.o.f("call to 'resume' before 'invoke' with coroutine");
+                return null;
+            }
+            p10.Q(obj);
+        }
+        return w01.a;
+    }
+}

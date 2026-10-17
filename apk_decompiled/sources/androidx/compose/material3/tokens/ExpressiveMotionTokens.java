@@ -1,0 +1,71 @@
+package androidx.compose.material3.tokens;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class ExpressiveMotionTokens {
+    public static final int $stable = 0;
+    public static final ExpressiveMotionTokens INSTANCE = new ExpressiveMotionTokens();
+    private static final float SpringDefaultSpatialDamping = 0.8f;
+    private static final float SpringDefaultSpatialStiffness = 380.0f;
+    private static final float SpringDefaultEffectsDamping = 1.0f;
+    private static final float SpringDefaultEffectsStiffness = 1600.0f;
+    private static final float SpringFastSpatialDamping = 0.6f;
+    private static final float SpringFastSpatialStiffness = 800.0f;
+    private static final float SpringFastEffectsDamping = 1.0f;
+    private static final float SpringFastEffectsStiffness = 3800.0f;
+    private static final float SpringSlowSpatialDamping = 0.8f;
+    private static final float SpringSlowSpatialStiffness = 200.0f;
+    private static final float SpringSlowEffectsDamping = 1.0f;
+    private static final float SpringSlowEffectsStiffness = 800.0f;
+
+    private ExpressiveMotionTokens() {
+    }
+
+    public final float getSpringDefaultEffectsDamping() {
+        return SpringDefaultEffectsDamping;
+    }
+
+    public final float getSpringDefaultEffectsStiffness() {
+        return SpringDefaultEffectsStiffness;
+    }
+
+    public final float getSpringDefaultSpatialDamping() {
+        return SpringDefaultSpatialDamping;
+    }
+
+    public final float getSpringDefaultSpatialStiffness() {
+        return SpringDefaultSpatialStiffness;
+    }
+
+    public final float getSpringFastEffectsDamping() {
+        return SpringFastEffectsDamping;
+    }
+
+    public final float getSpringFastEffectsStiffness() {
+        return SpringFastEffectsStiffness;
+    }
+
+    public final float getSpringFastSpatialDamping() {
+        return SpringFastSpatialDamping;
+    }
+
+    public final float getSpringFastSpatialStiffness() {
+        return SpringFastSpatialStiffness;
+    }
+
+    public final float getSpringSlowEffectsDamping() {
+        return SpringSlowEffectsDamping;
+    }
+
+    public final float getSpringSlowEffectsStiffness() {
+        return SpringSlowEffectsStiffness;
+    }
+
+    public final float getSpringSlowSpatialDamping() {
+        return SpringSlowSpatialDamping;
+    }
+
+    public final float getSpringSlowSpatialStiffness() {
+        return SpringSlowSpatialStiffness;
+    }
+}

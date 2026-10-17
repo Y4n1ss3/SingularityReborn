@@ -1,0 +1,14 @@
+package defpackage;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes2.dex */
+public abstract class qs {
+    public static final /* synthetic */ int a = 0;
+
+    static {
+        ThreadLocal[] threadLocalArr = new ThreadLocal[4];
+        for (int i = 0; i < 4; i++) {
+            threadLocalArr[i] = new ThreadLocal();
+        }
+    }
+}

@@ -1,0 +1,68 @@
+package androidx.compose.material.icons.rounded;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import defpackage.uf;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class EmergencyShareKt {
+    private static ImageVector _emergencyShare;
+
+    public static final ImageVector getEmergencyShare(Icons.Rounded rounded) {
+        ImageVector imageVector = _emergencyShare;
+        if (imageVector != null) {
+            imageVector.getClass();
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("Rounded.EmergencyShare", Dp.m7611constructorimpl(24.0f), Dp.m7611constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        SolidColor solidColor = new SolidColor(Color.Companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw = StrokeCap.Companion.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk8 = StrokeJoin.Companion.m5145getBevelLxFBmk8();
+        PathBuilder b = uf.b(12.0f, 9.0f);
+        b.curveToRelative(-3.15f, 0.0f, -6.0f, 2.41f, -6.0f, 6.15f);
+        b.curveToRelative(0.0f, 2.35f, 1.78f, 5.11f, 5.34f, 8.27f);
+        b.curveToRelative(0.37f, 0.33f, 0.95f, 0.33f, 1.33f, 0.0f);
+        b.curveTo(16.22f, 20.25f, 18.0f, 17.5f, 18.0f, 15.15f);
+        b.curveTo(18.0f, 11.41f, 15.15f, 9.0f, 12.0f, 9.0f);
+        b.close();
+        b.moveTo(12.0f, 16.5f);
+        b.curveToRelative(-0.83f, 0.0f, -1.5f, -0.67f, -1.5f, -1.5f);
+        b.reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f);
+        b.reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f);
+        b.reflectiveCurveTo(12.83f, 16.5f, 12.0f, 16.5f);
+        b.close();
+        b.moveTo(16.18f, 6.82f);
+        b.curveToRelative(-0.35f, 0.35f, -0.89f, 0.38f, -1.3f, 0.09f);
+        b.curveTo(14.07f, 6.34f, 13.07f, 6.0f, 12.0f, 6.0f);
+        b.reflectiveCurveTo(9.93f, 6.34f, 9.12f, 6.91f);
+        b.curveToRelative(-0.41f, 0.28f, -0.95f, 0.26f, -1.3f, -0.09f);
+        b.curveToRelative(-0.43f, -0.43f, -0.39f, -1.15f, 0.09f, -1.5f);
+        b.curveTo(9.06f, 4.49f, 10.48f, 4.0f, 12.0f, 4.0f);
+        b.reflectiveCurveToRelative(2.94f, 0.49f, 4.09f, 1.32f);
+        b.curveTo(16.58f, 5.67f, 16.61f, 6.39f, 16.18f, 6.82f);
+        b.close();
+        b.moveTo(4.97f, 3.97f);
+        b.curveTo(4.55f, 3.54f, 4.59f, 2.85f, 5.05f, 2.47f);
+        b.curveTo(6.95f, 0.93f, 9.37f, 0.0f, 12.01f, 0.0f);
+        b.curveToRelative(2.64f, 0.0f, 5.06f, 0.93f, 6.95f, 2.48f);
+        b.curveToRelative(0.46f, 0.38f, 0.5f, 1.07f, 0.08f, 1.49f);
+        b.curveToRelative(-0.36f, 0.36f, -0.93f, 0.39f, -1.32f, 0.07f);
+        b.curveTo(16.16f, 2.77f, 14.17f, 2.0f, 12.01f, 2.0f);
+        b.curveTo(9.83f, 2.0f, 7.84f, 2.77f, 6.29f, 4.04f);
+        b.curveTo(5.9f, 4.36f, 5.33f, 4.32f, 4.97f, 3.97f);
+        b.close();
+        ImageVector build = ImageVector.Builder.m5492addPathoIyEayM$default(builder, b.getNodes(), defaultFillType, "", solidColor, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw, m5145getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        _emergencyShare = build;
+        build.getClass();
+        return build;
+    }
+}

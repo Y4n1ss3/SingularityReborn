@@ -1,0 +1,20 @@
+package androidx.compose.ui.layout;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes2.dex */
+public interface GraphicLayerInfo {
+
+    /* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+    public static final class DefaultImpls {
+        @Deprecated
+        public static long getOwnerViewId(GraphicLayerInfo graphicLayerInfo) {
+            return GraphicLayerInfo.super.getOwnerViewId();
+        }
+    }
+
+    long getLayerId();
+
+    default long getOwnerViewId() {
+        return 0L;
+    }
+}

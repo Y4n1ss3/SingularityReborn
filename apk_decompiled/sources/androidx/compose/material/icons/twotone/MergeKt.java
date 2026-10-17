@@ -1,0 +1,49 @@
+package androidx.compose.material.icons.twotone;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import defpackage.af0;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class MergeKt {
+    private static ImageVector _merge;
+
+    public static final ImageVector getMerge(Icons.TwoTone twoTone) {
+        ImageVector imageVector = _merge;
+        if (imageVector != null) {
+            imageVector.getClass();
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("TwoTone.Merge", Dp.m7611constructorimpl(24.0f), Dp.m7611constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        SolidColor solidColor = new SolidColor(Color.Companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw = StrokeCap.Companion.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk8 = StrokeJoin.Companion.m5145getBevelLxFBmk8();
+        PathBuilder i = af0.i(6.41f, 21.0f, 5.0f, 19.59f);
+        i.lineToRelative(4.83f, -4.83f);
+        i.curveToRelative(0.75f, -0.75f, 1.17f, -1.77f, 1.17f, -2.83f);
+        i.verticalLineToRelative(-5.1f);
+        i.lineTo(9.41f, 8.41f);
+        i.lineTo(8.0f, 7.0f);
+        i.lineToRelative(4.0f, -4.0f);
+        i.lineToRelative(4.0f, 4.0f);
+        i.lineToRelative(-1.41f, 1.41f);
+        i.lineTo(13.0f, 6.83f);
+        i.verticalLineToRelative(5.1f);
+        i.curveToRelative(0.0f, 1.06f, 0.42f, 2.08f, 1.17f, 2.83f);
+        i.lineTo(19.0f, 19.59f);
+        i.lineTo(17.59f, 21.0f);
+        ImageVector build = ImageVector.Builder.m5492addPathoIyEayM$default(builder, af0.t(i, 12.0f, 15.41f, 6.41f, 21.0f), defaultFillType, "", solidColor, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw, m5145getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        _merge = build;
+        build.getClass();
+        return build;
+    }
+}

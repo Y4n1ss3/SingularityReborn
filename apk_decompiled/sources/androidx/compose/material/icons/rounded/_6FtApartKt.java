@@ -1,0 +1,120 @@
+package androidx.compose.material.icons.rounded;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import defpackage.bv;
+import defpackage.c21;
+import defpackage.k4;
+import defpackage.kf0;
+import defpackage.uf;
+import defpackage.uo;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class _6FtApartKt {
+    private static ImageVector __6FtApart;
+
+    public static final ImageVector get_6FtApart(Icons.Rounded rounded) {
+        ImageVector imageVector = __6FtApart;
+        if (imageVector != null) {
+            imageVector.getClass();
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("Rounded._6FtApart", Dp.m7611constructorimpl(24.0f), Dp.m7611constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        SolidColor solidColor = new SolidColor(Color.Companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw = StrokeCap.Companion.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk8 = StrokeJoin.Companion.m5145getBevelLxFBmk8();
+        PathBuilder b = uf.b(6.0f, 6.0f);
+        b.curveToRelative(1.1f, 0.0f, 2.0f, -0.9f, 2.0f, -2.0f);
+        b.reflectiveCurveTo(7.1f, 2.0f, 6.0f, 2.0f);
+        b.reflectiveCurveTo(4.0f, 2.9f, 4.0f, 4.0f);
+        b.reflectiveCurveTo(4.9f, 6.0f, 6.0f, 6.0f);
+        b.close();
+        b.moveTo(10.0f, 9.43f);
+        b.curveToRelative(0.0f, -0.81f, -0.48f, -1.53f, -1.22f, -1.85f);
+        b.curveTo(7.93f, 7.21f, 6.99f, 7.0f, 6.0f, 7.0f);
+        b.curveTo(5.01f, 7.0f, 4.07f, 7.21f, 3.22f, 7.58f);
+        b.curveTo(2.48f, 7.9f, 2.0f, 8.62f, 2.0f, 9.43f);
+        c21.c(b, 10.0f, 8.0f, 9.43f);
+        b.moveTo(18.0f, 6.0f);
+        b.curveToRelative(1.1f, 0.0f, 2.0f, -0.9f, 2.0f, -2.0f);
+        b.reflectiveCurveToRelative(-0.9f, -2.0f, -2.0f, -2.0f);
+        b.reflectiveCurveToRelative(-2.0f, 0.9f, -2.0f, 2.0f);
+        b.reflectiveCurveTo(16.9f, 6.0f, 18.0f, 6.0f);
+        b.close();
+        b.moveTo(22.0f, 9.43f);
+        b.curveToRelative(0.0f, -0.81f, -0.48f, -1.53f, -1.22f, -1.85f);
+        b.curveTo(19.93f, 7.21f, 18.99f, 7.0f, 18.0f, 7.0f);
+        b.curveToRelative(-0.99f, 0.0f, -1.93f, 0.21f, -2.78f, 0.58f);
+        b.curveTo(14.48f, 7.9f, 14.0f, 8.62f, 14.0f, 9.43f);
+        c21.c(b, 10.0f, 8.0f, 9.43f);
+        b.moveTo(21.65f, 14.35f);
+        b.lineToRelative(-1.79f, 1.79f);
+        b.curveTo(19.54f, 16.46f, 19.0f, 16.24f, 19.0f, 15.79f);
+        bv.q(b, -0.8f, 5.0f, 15.0f, 0.79f);
+        b.curveToRelative(0.0f, 0.45f, -0.54f, 0.67f, -0.85f, 0.35f);
+        b.lineToRelative(-1.79f, -1.79f);
+        b.curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0.0f, -0.71f);
+        b.lineToRelative(1.79f, -1.79f);
+        b.curveTo(4.46f, 11.54f, 5.0f, 11.76f, 5.0f, 12.21f);
+        bv.q(b, 0.8f, 19.0f, 13.0f, -0.79f);
+        b.curveToRelative(0.0f, -0.45f, 0.54f, -0.67f, 0.85f, -0.35f);
+        b.lineToRelative(1.79f, 1.79f);
+        b.curveTo(21.84f, 13.84f, 21.84f, 14.16f, 21.65f, 14.35f);
+        k4.r(b, 10.0f, 18.5f, 10.0f, 18.5f);
+        b.curveToRelative(0.0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f);
+        b.horizontalLineToRelative(-2.0f);
+        b.curveTo(7.22f, 18.0f, 7.0f, 18.22f, 7.0f, 18.5f);
+        b.verticalLineToRelative(3.0f);
+        b.curveTo(7.0f, 21.78f, 7.22f, 22.0f, 7.5f, 22.0f);
+        b.horizontalLineToRelative(2.0f);
+        b.curveToRelative(0.28f, 0.0f, 0.5f, -0.22f, 0.5f, -0.5f);
+        b.verticalLineTo(20.0f);
+        b.curveToRelative(0.0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f);
+        uf.t(b, 8.0f, 19.0f, 1.5f);
+        b.curveTo(9.78f, 19.0f, 10.0f, 18.78f, 10.0f, 18.5f);
+        uo.A(b, 9.0f, 20.5f, 21.0f, 8.0f);
+        kf0.n(b, -0.5f, 9.0f, 17.0f, 19.0f);
+        b.horizontalLineToRelative(-0.5f);
+        b.verticalLineToRelative(2.5f);
+        b.curveToRelative(0.0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f);
+        b.horizontalLineToRelative(0.0f);
+        b.curveToRelative(-0.28f, 0.0f, -0.5f, -0.22f, -0.5f, -0.5f);
+        b.verticalLineTo(19.0f);
+        b.horizontalLineTo(15.0f);
+        b.curveToRelative(-0.28f, 0.0f, -0.5f, -0.22f, -0.5f, -0.5f);
+        b.verticalLineToRelative(0.0f);
+        b.curveToRelative(0.0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f);
+        b.horizontalLineToRelative(2.0f);
+        b.curveToRelative(0.28f, 0.0f, 0.5f, 0.22f, 0.5f, 0.5f);
+        b.verticalLineToRelative(0.0f);
+        b.curveTo(17.5f, 18.78f, 17.28f, 19.0f, 17.0f, 19.0f);
+        b.close();
+        b.moveTo(14.0f, 18.5f);
+        b.curveToRelative(0.0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f);
+        k4.k(b, -1.0f, 0.5f, 13.0f);
+        b.curveToRelative(0.28f, 0.0f, 0.5f, 0.22f, 0.5f, 0.5f);
+        b.curveToRelative(0.0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f);
+        b.horizontalLineToRelative(-0.5f);
+        b.verticalLineToRelative(1.0f);
+        b.curveToRelative(0.0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f);
+        b.curveToRelative(-0.28f, 0.0f, -0.5f, -0.22f, -0.5f, -0.5f);
+        b.verticalLineToRelative(-3.0f);
+        b.curveToRelative(0.0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f);
+        b.horizontalLineToRelative(1.5f);
+        b.curveTo(13.78f, 18.0f, 14.0f, 18.22f, 14.0f, 18.5f);
+        b.close();
+        ImageVector build = ImageVector.Builder.m5492addPathoIyEayM$default(builder, b.getNodes(), defaultFillType, "", solidColor, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw, m5145getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        __6FtApart = build;
+        build.getClass();
+        return build;
+    }
+}

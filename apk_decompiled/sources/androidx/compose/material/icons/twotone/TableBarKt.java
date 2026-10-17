@@ -1,0 +1,71 @@
+package androidx.compose.material.icons.twotone;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import defpackage.kf0;
+import defpackage.uf;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class TableBarKt {
+    private static ImageVector _tableBar;
+
+    public static final ImageVector getTableBar(Icons.TwoTone twoTone) {
+        ImageVector imageVector = _tableBar;
+        if (imageVector != null) {
+            imageVector.getClass();
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("TwoTone.TableBar", Dp.m7611constructorimpl(24.0f), Dp.m7611constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        Color.Companion companion = Color.Companion;
+        SolidColor solidColor = new SolidColor(companion.m4787getBlack0d7_KjU(), null);
+        StrokeCap.Companion companion2 = StrokeCap.Companion;
+        int m5135getButtKaPHkGw = companion2.m5135getButtKaPHkGw();
+        StrokeJoin.Companion companion3 = StrokeJoin.Companion;
+        int m5145getBevelLxFBmk8 = companion3.m5145getBevelLxFBmk8();
+        PathBuilder b = uf.b(4.28f, 7.5f);
+        b.arcToRelative(7.72f, 1.5f, 0.0f, true, false, 15.44f, 0.0f);
+        b.arcToRelative(7.72f, 1.5f, 0.0f, true, false, -15.44f, 0.0f);
+        b.close();
+        ImageVector.Builder.m5492addPathoIyEayM$default(builder, b.getNodes(), defaultFillType, "", solidColor, 0.3f, null, 0.3f, 1.0f, m5135getButtKaPHkGw, m5145getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null);
+        int defaultFillType2 = VectorKt.getDefaultFillType();
+        SolidColor solidColor2 = new SolidColor(companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw2 = companion2.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk82 = companion3.m5145getBevelLxFBmk8();
+        PathBuilder b2 = uf.b(22.0f, 7.5f);
+        b2.curveTo(22.0f, 5.57f, 17.52f, 4.0f, 12.0f, 4.0f);
+        b2.reflectiveCurveTo(2.0f, 5.57f, 2.0f, 7.5f);
+        b2.curveToRelative(0.0f, 1.81f, 3.95f, 3.31f, 9.0f, 3.48f);
+        b2.verticalLineTo(15.0f);
+        b2.horizontalLineTo(9.35f);
+        b2.curveToRelative(-0.82f, 0.0f, -1.55f, 0.5f, -1.86f, 1.26f);
+        b2.lineTo(6.0f, 20.0f);
+        kf0.B(b2, 2.0f, 1.2f, -3.0f, 5.6f);
+        b2.lineToRelative(1.2f, 3.0f);
+        b2.horizontalLineToRelative(2.0f);
+        b2.lineToRelative(-1.5f, -3.74f);
+        b2.curveTo(16.2f, 15.5f, 15.46f, 15.0f, 14.65f, 15.0f);
+        b2.horizontalLineTo(13.0f);
+        b2.verticalLineToRelative(-4.02f);
+        b2.curveTo(18.05f, 10.81f, 22.0f, 9.31f, 22.0f, 7.5f);
+        b2.close();
+        b2.moveTo(12.0f, 9.0f);
+        b2.curveTo(7.95f, 9.0f, 5.26f, 8.14f, 4.28f, 7.5f);
+        b2.curveTo(5.26f, 6.86f, 7.95f, 6.0f, 12.0f, 6.0f);
+        b2.reflectiveCurveToRelative(6.74f, 0.86f, 7.72f, 1.5f);
+        b2.curveTo(18.74f, 8.14f, 16.05f, 9.0f, 12.0f, 9.0f);
+        b2.close();
+        ImageVector build = ImageVector.Builder.m5492addPathoIyEayM$default(builder, b2.getNodes(), defaultFillType2, "", solidColor2, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw2, m5145getBevelLxFBmk82, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        _tableBar = build;
+        build.getClass();
+        return build;
+    }
+}

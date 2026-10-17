@@ -1,0 +1,33 @@
+package androidx.compose.ui.text.android;
+
+import android.text.BoringLayout;
+import android.text.Layout;
+import android.text.TextDirectionHeuristic;
+import android.text.TextPaint;
+import android.text.TextUtils;
+import defpackage.t0;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes2.dex */
+final class BoringLayoutFactory33 {
+    public static final BoringLayoutFactory33 INSTANCE = new BoringLayoutFactory33();
+
+    private BoringLayoutFactory33() {
+    }
+
+    public static final BoringLayout create(CharSequence charSequence, TextPaint textPaint, int i, Layout.Alignment alignment, float f, float f2, BoringLayout.Metrics metrics, boolean z, boolean z2, TextUtils.TruncateAt truncateAt, int i2) {
+        return t0.b(charSequence, textPaint, i, alignment, f, f2, metrics, z, z2, truncateAt, i2);
+    }
+
+    public static final BoringLayout.Metrics isBoring(CharSequence charSequence, TextPaint textPaint, TextDirectionHeuristic textDirectionHeuristic) {
+        BoringLayout.Metrics isBoring;
+        isBoring = BoringLayout.isBoring(charSequence, textPaint, textDirectionHeuristic, true, null);
+        return isBoring;
+    }
+
+    public static final boolean isFallbackLineSpacingEnabled(BoringLayout boringLayout) {
+        boolean isFallbackLineSpacingEnabled;
+        isFallbackLineSpacingEnabled = boringLayout.isFallbackLineSpacingEnabled();
+        return isFallbackLineSpacingEnabled;
+    }
+}

@@ -1,0 +1,121 @@
+package androidx.compose.material.icons.twotone;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import defpackage.af0;
+import defpackage.k4;
+import defpackage.kf0;
+import defpackage.uf;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class OutdoorGrillKt {
+    private static ImageVector _outdoorGrill;
+
+    public static final ImageVector getOutdoorGrill(Icons.TwoTone twoTone) {
+        ImageVector imageVector = _outdoorGrill;
+        if (imageVector != null) {
+            imageVector.getClass();
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("TwoTone.OutdoorGrill", Dp.m7611constructorimpl(24.0f), Dp.m7611constructorimpl(24.0f), 24.0f, 24.0f, 0L, 0, false, 96, null);
+        int defaultFillType = VectorKt.getDefaultFillType();
+        Color.Companion companion = Color.Companion;
+        SolidColor solidColor = new SolidColor(companion.m4787getBlack0d7_KjU(), null);
+        StrokeCap.Companion companion2 = StrokeCap.Companion;
+        int m5135getButtKaPHkGw = companion2.m5135getButtKaPHkGw();
+        StrokeJoin.Companion companion3 = StrokeJoin.Companion;
+        int m5145getBevelLxFBmk8 = companion3.m5145getBevelLxFBmk8();
+        PathBuilder d = k4.d(16.58f, 10.0f, 7.42f);
+        d.curveToRelative(0.77f, 1.76f, 2.54f, 3.0f, 4.58f, 3.0f);
+        ImageVector.Builder.m5492addPathoIyEayM$default(builder, kf0.e(d, 15.81f, 11.76f, 16.58f, 10.0f), defaultFillType, "", solidColor, 0.3f, null, 0.3f, 1.0f, m5135getButtKaPHkGw, m5145getBevelLxFBmk8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null);
+        int defaultFillType2 = VectorKt.getDefaultFillType();
+        SolidColor solidColor2 = new SolidColor(companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw2 = companion2.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk82 = companion3.m5145getBevelLxFBmk8();
+        PathBuilder b = uf.b(17.0f, 22.0f);
+        b.curveToRelative(1.66f, 0.0f, 3.0f, -1.34f, 3.0f, -3.0f);
+        b.reflectiveCurveToRelative(-1.34f, -3.0f, -3.0f, -3.0f);
+        b.curveToRelative(-1.3f, 0.0f, -2.4f, 0.84f, -2.82f, 2.0f);
+        b.horizontalLineTo(9.14f);
+        b.lineToRelative(1.99f, -3.06f);
+        b.curveTo(11.42f, 14.98f, 11.71f, 15.0f, 12.0f, 15.0f);
+        b.reflectiveCurveToRelative(0.58f, -0.02f, 0.87f, -0.06f);
+        b.lineToRelative(1.02f, 1.57f);
+        b.curveToRelative(0.42f, -0.53f, 0.96f, -0.95f, 1.6f, -1.21f);
+        b.lineToRelative(-0.6f, -0.93f);
+        b.curveTo(17.31f, 13.27f, 19.0f, 10.84f, 19.0f, 8.0f);
+        b.horizontalLineTo(5.0f);
+        b.curveToRelative(0.0f, 2.84f, 1.69f, 5.27f, 4.12f, 6.37f);
+        b.lineToRelative(-3.95f, 6.08f);
+        b.curveToRelative(-0.3f, 0.46f, -0.17f, 1.08f, 0.29f, 1.38f);
+        b.horizontalLineToRelative(0.0f);
+        b.curveToRelative(0.46f, 0.3f, 1.08f, 0.17f, 1.38f, -0.29f);
+        b.lineToRelative(1.0f, -1.55f);
+        b.horizontalLineToRelative(6.34f);
+        b.curveTo(14.6f, 21.16f, 15.7f, 22.0f, 17.0f, 22.0f);
+        b.close();
+        b.moveTo(17.0f, 18.0f);
+        b.curveToRelative(0.55f, 0.0f, 1.0f, 0.45f, 1.0f, 1.0f);
+        b.curveToRelative(0.0f, 0.55f, -0.45f, 1.0f, -1.0f, 1.0f);
+        b.reflectiveCurveToRelative(-1.0f, -0.45f, -1.0f, -1.0f);
+        b.curveTo(16.0f, 18.45f, 16.45f, 18.0f, 17.0f, 18.0f);
+        af0.l(b, 7.42f, 10.0f, 9.16f);
+        b.curveToRelative(-0.77f, 1.76f, -2.54f, 3.0f, -4.58f, 3.0f);
+        ImageVector.Builder.m5492addPathoIyEayM$default(builder, kf0.e(b, 8.19f, 11.76f, 7.42f, 10.0f), defaultFillType2, "", solidColor2, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw2, m5145getBevelLxFBmk82, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null);
+        int defaultFillType3 = VectorKt.getDefaultFillType();
+        SolidColor solidColor3 = new SolidColor(companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw3 = companion2.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk83 = companion3.m5145getBevelLxFBmk8();
+        PathBuilder b2 = af0.b(17.0f, 19.0f, -1.0f, 0.0f);
+        b2.arcToRelative(1.0f, 1.0f, 0.0f, true, true, 2.0f, 0.0f);
+        b2.arcToRelative(1.0f, 1.0f, 0.0f, true, true, -2.0f, 0.0f);
+        ImageVector.Builder.m5492addPathoIyEayM$default(builder, b2.getNodes(), defaultFillType3, "", solidColor3, 0.3f, null, 0.3f, 1.0f, m5135getButtKaPHkGw3, m5145getBevelLxFBmk83, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null);
+        int defaultFillType4 = VectorKt.getDefaultFillType();
+        SolidColor solidColor4 = new SolidColor(companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw4 = companion2.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk84 = companion3.m5145getBevelLxFBmk8();
+        PathBuilder a = af0.a(9.41f, 7.0f, 1.0f);
+        a.curveToRelative(0.15f, -1.15f, 0.23f, -1.64f, -0.89f, -2.96f);
+        a.curveTo(9.1f, 3.54f, 8.84f, 3.27f, 9.06f, 2.0f);
+        a.horizontalLineTo(8.07f);
+        a.curveTo(7.86f, 3.11f, 8.1f, 4.05f, 8.96f, 4.96f);
+        a.curveTo(9.18f, 5.2f, 9.75f, 5.63f, 9.41f, 7.0f);
+        a.close();
+        ImageVector.Builder.m5492addPathoIyEayM$default(builder, a.getNodes(), defaultFillType4, "", solidColor4, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw4, m5145getBevelLxFBmk84, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null);
+        int defaultFillType5 = VectorKt.getDefaultFillType();
+        SolidColor solidColor5 = new SolidColor(companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw5 = companion2.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk85 = companion3.m5145getBevelLxFBmk8();
+        PathBuilder a2 = af0.a(11.89f, 7.0f, 1.0f);
+        a2.curveToRelative(0.15f, -1.15f, 0.23f, -1.64f, -0.89f, -2.96f);
+        a2.curveToRelative(-0.42f, -0.5f, -0.68f, -0.78f, -0.46f, -2.04f);
+        a2.horizontalLineToRelative(-0.99f);
+        a2.curveToRelative(-0.21f, 1.11f, 0.03f, 2.05f, 0.89f, 2.96f);
+        a2.curveTo(11.67f, 5.2f, 12.24f, 5.63f, 11.89f, 7.0f);
+        a2.close();
+        ImageVector.Builder.m5492addPathoIyEayM$default(builder, a2.getNodes(), defaultFillType5, "", solidColor5, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw5, m5145getBevelLxFBmk85, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null);
+        int defaultFillType6 = VectorKt.getDefaultFillType();
+        SolidColor solidColor6 = new SolidColor(companion.m4787getBlack0d7_KjU(), null);
+        int m5135getButtKaPHkGw6 = companion2.m5135getButtKaPHkGw();
+        int m5145getBevelLxFBmk86 = companion3.m5145getBevelLxFBmk8();
+        PathBuilder a3 = af0.a(14.41f, 7.0f, 1.0f);
+        a3.curveToRelative(0.15f, -1.15f, 0.23f, -1.64f, -0.89f, -2.96f);
+        a3.curveTo(14.1f, 3.54f, 13.84f, 3.27f, 14.06f, 2.0f);
+        a3.horizontalLineToRelative(-0.99f);
+        a3.curveToRelative(-0.21f, 1.11f, 0.03f, 2.05f, 0.89f, 2.96f);
+        a3.curveTo(14.18f, 5.2f, 14.75f, 5.63f, 14.41f, 7.0f);
+        a3.close();
+        ImageVector build = ImageVector.Builder.m5492addPathoIyEayM$default(builder, a3.getNodes(), defaultFillType6, "", solidColor6, 1.0f, null, 1.0f, 1.0f, m5135getButtKaPHkGw6, m5145getBevelLxFBmk86, 1.0f, 0.0f, 0.0f, 0.0f, 14336, null).build();
+        _outdoorGrill = build;
+        build.getClass();
+        return build;
+    }
+}

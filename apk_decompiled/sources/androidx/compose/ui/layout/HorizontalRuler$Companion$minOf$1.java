@@ -1,0 +1,28 @@
+package androidx.compose.ui.layout;
+
+import androidx.compose.ui.layout.Placeable;
+import defpackage.f30;
+import defpackage.my;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes2.dex */
+public final class HorizontalRuler$Companion$minOf$1 extends f30 implements my {
+    final /* synthetic */ HorizontalRuler[] $rulers;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public HorizontalRuler$Companion$minOf$1(HorizontalRuler[] horizontalRulerArr) {
+        super(2);
+        this.$rulers = horizontalRulerArr;
+    }
+
+    @Override // defpackage.my
+    public /* bridge */ /* synthetic */ Object invoke(Object obj, Object obj2) {
+        return invoke((Placeable.PlacementScope) obj, ((Number) obj2).floatValue());
+    }
+
+    public final Float invoke(Placeable.PlacementScope placementScope, float f) {
+        float mergeRulerValues;
+        mergeRulerValues = RulerKt.mergeRulerValues(placementScope, false, this.$rulers, f);
+        return Float.valueOf(mergeRulerValues);
+    }
+}

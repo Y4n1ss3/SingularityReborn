@@ -1,0 +1,26 @@
+package androidx.compose.foundation.pager;
+
+import androidx.compose.foundation.lazy.layout.LazyLayoutBeyondBoundsState;
+import androidx.compose.runtime.Composer;
+import androidx.compose.runtime.ComposerKt;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+public final class PagerBeyondBoundsModifierKt {
+    public static final LazyLayoutBeyondBoundsState rememberPagerBeyondBoundsState(PagerState pagerState, int i, Composer composer, int i2) {
+        if (ComposerKt.isTraceInProgress()) {
+            ComposerKt.traceEventStart(373558254, i2, -1, "androidx.compose.foundation.pager.rememberPagerBeyondBoundsState (PagerBeyondBoundsModifier.kt:25)");
+        }
+        boolean z = ((((i2 & 14) ^ 6) > 4 && composer.changed(pagerState)) || (i2 & 6) == 4) | ((((i2 & 112) ^ 48) > 32 && composer.changed(i)) || (i2 & 48) == 32);
+        Object rememberedValue = composer.rememberedValue();
+        if (z || rememberedValue == Composer.Companion.getEmpty()) {
+            rememberedValue = new PagerBeyondBoundsState(pagerState, i);
+            composer.updateRememberedValue(rememberedValue);
+        }
+        PagerBeyondBoundsState pagerBeyondBoundsState = (PagerBeyondBoundsState) rememberedValue;
+        if (ComposerKt.isTraceInProgress()) {
+            ComposerKt.traceEventEnd();
+        }
+        return pagerBeyondBoundsState;
+    }
+}

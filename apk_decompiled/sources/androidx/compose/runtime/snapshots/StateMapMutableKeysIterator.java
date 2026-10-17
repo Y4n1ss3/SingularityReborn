@@ -1,0 +1,23 @@
+package androidx.compose.runtime.snapshots;
+
+import defpackage.n20;
+import java.util.Iterator;
+import java.util.Map;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes.dex */
+final class StateMapMutableKeysIterator<K, V> extends StateMapMutableIterator<K, V> implements Iterator<K>, n20 {
+    public StateMapMutableKeysIterator(SnapshotStateMap<K, V> snapshotStateMap, Iterator<? extends Map.Entry<? extends K, ? extends V>> it) {
+        super(snapshotStateMap, it);
+    }
+
+    @Override // java.util.Iterator
+    public K next() {
+        Map.Entry<K, V> next = getNext();
+        if (next == null) {
+            throw new IllegalStateException();
+        }
+        advance();
+        return next.getKey();
+    }
+}

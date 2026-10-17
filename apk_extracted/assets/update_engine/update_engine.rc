@@ -1,0 +1,2 @@
+# update_engine service disabled via bind mount
+# This file intentionally left empty to prevent service registration

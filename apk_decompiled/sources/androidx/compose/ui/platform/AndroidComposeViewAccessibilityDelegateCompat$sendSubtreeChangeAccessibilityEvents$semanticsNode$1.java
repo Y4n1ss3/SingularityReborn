@@ -1,0 +1,21 @@
+package androidx.compose.ui.platform;
+
+import androidx.compose.ui.node.LayoutNode;
+import androidx.compose.ui.node.NodeKind;
+import defpackage.f30;
+import defpackage.ky;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+/* loaded from: classes2.dex */
+public final class AndroidComposeViewAccessibilityDelegateCompat$sendSubtreeChangeAccessibilityEvents$semanticsNode$1 extends f30 implements ky {
+    public static final AndroidComposeViewAccessibilityDelegateCompat$sendSubtreeChangeAccessibilityEvents$semanticsNode$1 INSTANCE = new AndroidComposeViewAccessibilityDelegateCompat$sendSubtreeChangeAccessibilityEvents$semanticsNode$1();
+
+    public AndroidComposeViewAccessibilityDelegateCompat$sendSubtreeChangeAccessibilityEvents$semanticsNode$1() {
+        super(1);
+    }
+
+    @Override // defpackage.ky
+    public final Boolean invoke(LayoutNode layoutNode) {
+        return Boolean.valueOf(layoutNode.getNodes$ui().m6528hasH91voCI$ui(NodeKind.m6573constructorimpl(8)));
+    }
+}

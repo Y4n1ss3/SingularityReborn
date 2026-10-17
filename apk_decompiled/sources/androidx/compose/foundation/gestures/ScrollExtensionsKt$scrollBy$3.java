@@ -1,0 +1,25 @@
+package androidx.compose.foundation.gestures;
+
+import defpackage.bq;
+import defpackage.hm;
+import defpackage.im;
+
+/* compiled from: r8-map-id-cdb4a92a528673486ef3c1abb8e37179149e2fde38b808a8f4ccb57bfaa0900b */
+@bq(c = "androidx.compose.foundation.gestures.ScrollExtensionsKt", f = "ScrollExtensions.kt", l = {98}, m = "scrollBy-d-4ec7I", v = 1)
+/* loaded from: classes.dex */
+public final class ScrollExtensionsKt$scrollBy$3 extends im {
+    Object L$0;
+    int label;
+    /* synthetic */ Object result;
+
+    public ScrollExtensionsKt$scrollBy$3(hm hmVar) {
+        super(hmVar);
+    }
+
+    @Override // defpackage.mc
+    public final Object invokeSuspend(Object obj) {
+        this.result = obj;
+        this.label |= Integer.MIN_VALUE;
+        return ScrollExtensionsKt.m521scrollByd4ec7I(null, 0L, this);
+    }
+}
