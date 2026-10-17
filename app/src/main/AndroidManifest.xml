@@ -1,15 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
-    
+    <queries>
+        <package android:name="com.oculus.guidebook"/>
+        <package android:name="com.meta.shell.env.footprint.haven2025"/>
+        <package android:name="com.meta.shell.env.vista.calming"/>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent>
+    </queries>
     <application
         android:allowBackup="true"
         android:label="Singularity"
@@ -23,6 +33,39 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.lumi.singularity.ui.activities.TweaksActivity"
+            android:label="AIO Tweaks"
+            android:exported="false" />
+        <activity
+            android:name="com.lumi.singularity.ui.activities.AdbRootActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" />
+        <activity
+            android:name="com.lumi.singularity.ui.activities.AdbActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" />
+        <activity
+            android:name="com.lumi.singularity.ui.activities.AppsActivity"
+            android:label="Install Apps"
+            android:exported="false" />
+        <activity
+            android:name="com.lumi.singularity.ui.activities.LedColorActivity"
+            android:label="Custom LED Color"
+            android:exported="false" />
+        <activity
+            android:name="com.lumi.singularity.ui.activities.TerminalActivity"
+            android:label="Root Terminal"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.lumi.singularity.ui.activities.DomainBlockerActivity"
+            android:label="Domain Blocker"
+            android:exported="false" />
+        <activity
+            android:name="com.lumi.singularity.ui.activities.ControllerInfoActivity"
+            android:label="Controllers"
+            android:exported="false" />
         <service
             android:name="com.lumi.singularity.system.ExploitService"
             android:exported="false"
@@ -31,5 +74,39 @@
             android:name="com.lumi.singularity.system.PayloadService"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
+        <service
+            android:name="com.lumi.singularity.system.TweakService"
+            android:exported="false"
+            android:foregroundServiceType="connectedDevice" />
+        <service
+            android:name="com.lumi.singularity.system.DnsBlockerService"
+            android:exported="true"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:foregroundServiceType="specialUse">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="VPN" />
+        </service>
+        <receiver
+            android:name="com.lumi.singularity.system.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.lumi.singularity.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 </manifest>
